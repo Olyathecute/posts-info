@@ -1,0 +1,17 @@
+@import '../../styles/colors.scss';
+
+.button {
+  background-color: $secondColor;
+  color: $fontColor;
+  border: 1px solid $thirdColor;
+
+  padding: 0.5rem;
+  font-size: 1.2rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,11 @@
+@import '../../styles/colors.scss';
+
+.header {
+  background-color: $secondColor;
+  padding: 30px;
+
+  .logo {
+    font-size: 3rem;
+    margin: 0;
+  }
+}
